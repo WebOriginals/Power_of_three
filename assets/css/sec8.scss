@@ -1,0 +1,70 @@
+@import "style.scss";
+
+.sec8{
+  padding: 3rem 0;
+
+  .soc_item:first-child{
+    padding: .5rem 2rem .5rem 0;
+  }
+}
+
+.text-contact{
+  margin: .5rem 0;
+  display: flex;
+  justify-content: center;
+  img{
+    margin-left: .8rem;
+    width: 8px;
+    height: 8px;
+    margin-top: 0
+  }
+}
+.soc{
+  @extend %flex;
+
+  .soc_item{
+    padding: .5rem 2rem;
+  }
+
+  path:hover{
+    fill: $background-color;
+  }
+
+}
+.footer{
+
+  @extend %flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@media only screen and (min-width: 767px) {
+  .sec8{
+    padding: 3rem 0 2rem;
+
+    .soc_item:first-child{
+      padding: .5rem ;
+    }
+    .soc_item{
+      padding: .5rem ;
+    }
+  }
+  .footer{
+    flex-direction: row;
+  }
+}
+
+
+@media only screen and (min-width: 990px) {
+  .text-contact{
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 1350px) {
+
+}
+@media only screen and (min-width: 1600px) {
+
+}

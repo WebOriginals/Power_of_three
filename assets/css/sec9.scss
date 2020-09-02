@@ -1,0 +1,82 @@
+@import "style.scss";
+
+.sec9 {
+  padding: 0 0 2rem 0;
+}
+
+@media only screen and (max-width: 990px) {
+  .mobile {
+    text-align: center;
+
+    .soc .soc_item {
+      padding: .5rem 1.5rem;
+    }
+
+    .soc {
+      justify-content: center;
+    }
+
+    .logo {
+      margin-bottom: 4rem;
+    }
+
+    .soc {
+      margin-bottom: 1rem;
+    }
+
+    .politics {
+      margin-bottom: 5rem;
+    }
+
+    .lab {
+      margin-bottom: 1rem;
+    }
+
+    .deskr {
+      font-size: 12px;
+    }
+  }
+  .desctopf{
+    display: none;
+  }
+}
+.deskr{
+  font-size: 14px;
+}
+@media only screen and (min-width: 991px) {
+  .mobile {
+    display: none;
+  }
+  .desctopf {
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap;
+    .soc .soc_item:last-child {
+      padding: .5rem 0 .5rem 1.5rem;
+    }
+    .soc .soc_item {
+      padding: .5rem  1.5rem;
+    }
+    .soc {
+      justify-content: flex-end;
+      margin-bottom: 4rem;
+    }
+
+    .logo {
+      margin-bottom: 0;
+    }
+
+    .politics {
+      text-align: left;
+    }
+
+    .text-contact {
+      text-align: right;
+    }
+
+    .lab {
+      text-align: right;
+    }
+  }
+}
+

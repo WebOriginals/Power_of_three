@@ -1,0 +1,88 @@
+.wrapper-btn_modal {
+  text-align: center;
+  padding: 1rem; }
+
+.margin-l-n {
+  margin: -1rem -1rem -1rem 0 !important; }
+
+.modal-header {
+  border: none;
+  justify-content: flex-end; }
+
+.modal input,
+.modal textarea {
+  margin-bottom: 1rem; }
+
+.top {
+  margin: -67px 0 0 !important;
+  outline: none; }
+
+.title-modi,
+.text-modi {
+  text-align: center; }
+
+.wrapperbrnmodal {
+  text-align: center; }
+
+button:active,
+button:focus,
+button:hover {
+  outline: none;
+  border: none; }
+
+.application-dialog {
+  margin: 0; }
+
+.application-content {
+  height: 100vh;
+  overflow: hidden; }
+
+.modal-body {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .modal-body .application {
+    position: relative;
+    align-self: center; }
+
+.sub_modal-title {
+  font-size: 12px;
+  margin-bottom: 1rem; }
+
+.modal-title {
+  margin-bottom: 1rem; }
+
+@media only screen and (min-width: 767px) {
+  .application-content {
+    height: auto; }
+  .application-dialog {
+    max-width: 730px;
+    margin: 2rem auto; }
+  .wrapper-img-modal {
+    height: 590px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -1px;
+    width: 100%;
+    top: -72px; } }
+
+@media only screen and (min-width: 990px) {
+  .application-dialog {
+    max-width: 970px; }
+  .application {
+    position: relative;
+    width: 100%; }
+  .wrapper-img-modal {
+    height: 570px;
+    top: -72px; } }
+
+@media only screen and (min-width: 1200px) {
+  .application-dialog {
+    max-width: 1090px;
+    margin: 4rem auto 0;
+    text-align: center; }
+    .application-dialog .wrapper-title {
+      margin-bottom: 1rem; } }

@@ -1,0 +1,24 @@
+.sec7 {
+  padding: 3rem 0; }
+
+@media only screen and (min-width: 767px) {
+  form.power-_o_t {
+    position: relative;
+    width: 70%;
+    margin: auto; } }
+
+@media only screen and (max-width: 990px) {
+  .sec7 {
+    background-image: none !important; } }
+
+@media only screen and (min-width: 990px) {
+  .sec7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; } }
+
+@media only screen and (min-width: 1200px) {
+  .sec7 {
+    padding: 4rem 0; }
+  form.power-_o_t {
+    width: 50%; } }

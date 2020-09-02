@@ -1,0 +1,46 @@
+@import "style.scss";
+
+form.power-_o_t {
+  .form-group:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    text-align: center;
+    font-size: 18px;
+    color: #C4C4C4;
+  }
+  .form-control {
+
+    &:focus{
+      box-shadow: 0 0 0 0.2rem rgba(253, 221, 0, 0.25) !important;
+      border: none !important;
+    }
+  }
+
+
+  .wrapper-btn {
+    text-align: center;
+  }
+
+  .wrapper-title {
+    text-align: center;
+    padding-bottom: 0;
+    @include fluidMarginBottom(12px, 25px, 480px, 1280px, 20px);
+  }
+
+  .form_description {
+    @include fluidFontSize(12px, 16px, 480px, 1280px, 14px);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+//.form-control:focus {
+//  color: #495057;
+//  background-color: #fff;
+//  border-color: #80bdff;
+//  outline: 0;
+//  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+//}

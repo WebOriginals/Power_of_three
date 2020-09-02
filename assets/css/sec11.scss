@@ -1,0 +1,32 @@
+.sec11{
+  color: white;
+  position: fixed;
+  bottom: 15px;
+z-index: 20;
+}
+.bl{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: #0066A4;
+  width: 96%;
+  margin: auto;
+  border-radius: 5px;
+  .wrapper-btn{
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+.textik a{
+  color: white;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 990px) {
+  .bl{
+
+    .wrapper-btn{
+      margin-top: 0;
+      text-align: center;
+    }
+  }
+}

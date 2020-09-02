@@ -1,0 +1,34 @@
+@import "style.scss";
+
+.wrapper-calltoaction{
+  @include fluidFontSize(14px, 21px, 480px, 1280px, 30px);
+  font-weight: bold;
+  @include fluidMarginBottom(15px, 20px, 480px, 1280px, 15px);
+}
+.wrapper-sub-calltoaction{
+  @include fluidFontSize(12px, 18px, 480px, 1280px, 15px);
+  @include fluidMarginBottom(30px, 40px, 480px, 1280px, 35px);
+}
+.yellow-title{
+  @include fluidFontSize(48px, 96px, 480px, 1280px, 55px);
+  color: #FDDD00 ;
+  font-weight: bold;
+  line-height: 1;
+  @include fluidMarginBottom(10px, 10px, 480px, 1280px, 10px);
+}
+.background-w{
+  background: #0066A4;
+  opacity: .8;
+  position: absolute;
+  width: 300px;
+  height: 230px;
+  transform: skew(-10deg);
+  left: -2rem;
+  top: 11.2rem;
+}
+@media only screen and (min-width: 767px) {
+
+  .background-w{
+    top: 12.7rem;
+  }
+}

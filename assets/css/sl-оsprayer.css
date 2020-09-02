@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.wrapper-slider-оsprayer {
+  position: relative;
+  height: 100%;
+  padding-bottom: 4rem; }
+
+.sl-оsprayer {
+  width: 100%;
+  height: 100%; }
+
+.slide-оsprayer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem; }

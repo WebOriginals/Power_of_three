@@ -1,0 +1,142 @@
+@import "style.scss";
+
+.wrapper-3-sl {
+  position: relative;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+.sl-3-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sl-3-slide {
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+
+}
+
+.gallery-top {
+  height: 75%;
+  width: 100%;
+  transition: 1s;
+}
+
+.gallery-thumbs {
+  position: relative;
+  height: 14.6rem;
+  box-sizing: border-box;
+  padding: 10px 0;
+  padding-bottom: 4rem;
+  transition: 1s;
+}
+
+.gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.sl-3_title {
+  background: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  @include fluidFontSize(16px, 24px, 480px, 1280px, 20px);
+  font-weight: bold;
+  padding: .5rem 0 0;
+
+  .op {
+    margin: auto;
+    width: max-content;
+    border-bottom: 2px solid #000;
+  }
+}
+
+.swiper-slide-thumb-active {
+  .op {
+    color: #0066A4;
+    border-bottom: 2px solid #0066A4;
+  }
+}
+
+.wrapper-picture {
+  text-align: center;
+}
+
+.wrapper-picture img {
+  width: 88%;
+  //text-align: left;
+}
+
+.wrapper-3-sl {
+  .name {
+    @include fluidFontSize(18px, 36px, 480px, 1280px, 26px);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+}
+
+.deskripti {
+  @include fluidFontSize(16px, 21px, 480px, 1280px, 26px);
+}
+
+.sl-ul-3 {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper-icon-arm {
+    text-align: right;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .gallery-thumbs {
+    margin-bottom: 3rem;
+  }
+  .wrapper-picture {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1350px) {
+  .gallery-thumbs {
+    margin-bottom: 4rem;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .gallery-top {
+    height: 65%;
+  }
+  .gallery-thumbs {
+    height: 230px;
+    margin-bottom: 6rem;
+  }
+  .wrapper-3-sl {
+    height: 100%;
+  }
+}
